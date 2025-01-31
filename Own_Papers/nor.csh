@@ -10,6 +10,7 @@ rsync -avz Own_Papers $lcd/public_html
 #
 rsync -avz Own_Papers $nor51/public_html
 rsync -avz Own_Papers $nor65/public_html
+rsync -avz Own_Papers $nor65/AxelBrandenburg.github.io
 #
 #  on nor55, from nor51
 #
