@@ -1,0 +1,290 @@
+% $Id: journ.tex,v 1.184 2024/12/25 14:14:29 brandenb Exp $
+%
+%  journals
+%
+\newcommand{\nor}[1]{\htmladdnormallink{http://www.nordita.org/\-pre\-prints/\-#1.ps.gz}{http://www.nordita.org/preprints/#1.ps.gz}}
+\newcommand{\doiS}[1]{\html{\htmladdnormallink{(DOI)}{http://dx.doi.org/#1}}}
+\newcommand{\doiB}[1]{\html{\htmladdnormallink{(DOI}{http://dx.doi.org/#1}}}
+\newcommand{\doiT}[1]{\html{\htmladdnormallink{, DOI}{http://dx.doi.org/#1}}}
+\newcommand{\doiE}[1]{\html{\htmladdnormallink{, DOI)}{http://dx.doi.org/#1}}}
+%
+\newcommand{\arxivB}[1]{\html{\htmladdnormallink{{\rm(arXiv:#1}}{http://arXiv.org/abs/#1}}}
+\newcommand{\arxivS}[1]{\html{\htmladdnormallink{{\rm(arXiv:#1)}}{http://arXiv.org/abs/#1}}}
+\newcommand{\arxiv}[1]{\htmladdnormallink{{\rm arXiv:#1}}{http://arXiv.org/abs/#1}}
+%
+%\newcommand{\arxivB}[1]{\html{\htmladdnormallink{{\rm(arXiv:#1}}{http://xxx.lanl.gov/abs/#1}}}
+%\newcommand{\arxivS}[1]{\html{\htmladdnormallink{{\rm(arXiv:#1)}}{http://xxx.lanl.gov/abs/#1}}}
+%\newcommand{\arxiv}[1]{\htmladdnormallink{{\rm arXiv:#1}}{http://xxx.lanl.gov/abs/#1}}
+%
+\newcommand{\astroph}[1]{\htmladdnormallink{{\rm astro-ph/#1}}{http://arXiv.org/abs/astro-ph/#1}}
+\newcommand{\condmat}[1]{\htmladdnormallink{{\rm cond-mat/#1}}{http://arXiv.org/abs/cond-mat/#1}}
+\newcommand{\physics}[1]{\htmladdnormallink{{\rm physics/#1}}{http://arXiv.org/abs/physics/#1}}
+\newcommand{\hepph}[1]{\htmladdnormallink{{\rm hep-ph/#1}}{http://arXiv.org/abs/hep-ph/#1}}
+\newcommand{\qbio}[1]{\htmladdnormallink{{\rm q-bio/#1}}{http://arXiv.org/abs/q-bio/#1}}
+\newcommand{\astrophS}[1]{\html{\htmladdnormallink{{\rm(astro-ph/#1}}{http://arXiv.org/abs/astro-ph/#1}}}
+\newcommand{\astrophB}[1]{\html{\htmladdnormallink{{\rm(astro-ph/#1}}{http://arXiv.org/abs/astro-ph/#1}}}
+\newcommand{\condmatB}[1]{\html{\htmladdnormallink{{\rm(cond-mat/#1}}{http://arXiv.org/abs/cond-mat/#1}}}
+\newcommand{\physicsS}[1]{\html{\htmladdnormallink{{\rm(physics/#1}}{http://arXiv.org/abs/physics/#1})}}
+\newcommand{\physicsB}[1]{\html{\htmladdnormallink{{\rm(physics/#1}}{http://arXiv.org/abs/physics/#1}}}
+\newcommand{\hepphB}[1]{\html{\htmladdnormallink{{\rm(hep-ph/#1}}{http://arXiv.org/abs/hep-ph/#1}}}
+\newcommand{\qbioB}[1]{\html{\htmladdnormallink{{\rm(q-bio/#1}}{http://arXiv.org/abs/q-bio/#1}}}
+%
+%  French mirror site (:.,.+5s/harvard\.edu/u-strasbg\.fr/g)
+%  French mirror site (:.,.+11s/cdsads\.u-strasbg\.fr/esoads\.eso\.org/g)
+%
+%\newcommand{\nadsB}[1]{\html{\htmladdnormallink{(ADS}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\dadsT}[1]{\html{\htmladdnormallink{, ADS}{http://esoads.eso.org/doi/#1}}}
+%\newcommand{\nadsT}[1]{\html{\htmladdnormallink{, ADS}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\NadsT}[1]{\html{\htmladdnormallink{, ADS}{https://ui.adsabs.harvard.edu/abs/#1/abstract}}}
+%\newcommand{\nadsE}[1]{\html{\htmladdnormallink{, ADS)}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\nadsS}[1]{\html{\htmladdnormallink{(ADS)}{http://esoads.eso.org/abs/#1}}}
+%
+%\newcommand{\ads}[1]{\html{\htmladdnormallink{ADS}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\adsB}[1]{\html{\htmladdnormallink{(ADS}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\adsE}[1]{\html{\htmladdnormallink{, ADS)}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\adsC}[1]{\html{\htmladdnormallink{ADS, }{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\adsS}[1]{\html{\htmladdnormallink{(ADS)}{http://esoads.eso.org/abs/#1}}}
+%\newcommand{\adsT}[1]{\html{\htmladdnormallink{, ADS}{http://esoads.eso.org/abs/#1}}}
+%
+%\newcommand{\ads}[1]{\html{\htmladdnormallink{ADS}{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsB}[1]{\html{\htmladdnormallink{(ADS}{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsE}[1]{\html{\htmladdnormallink{, ADS)}{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsC}[1]{\html{\htmladdnormallink{ADS, }{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsS}[1]{\html{\htmladdnormallink{(ADS)}{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsT}[1]{\html{\htmladdnormallink{, ADS}{http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=#1}}}
+%
+%  Harvard site
+%
+%\newcommand{\nadsB}[1]{\html{\htmladdnormallink{(ADS}{http://adsabs.harvard.edu/abs/#1}}}
+%\newcommand{\dadsT}[1]{\html{\htmladdnormallink{, ADS}{http://adsabs.harvard.edu/doi/#1}}}
+\newcommand{\dadsT}[1]{\html{\htmladdnormallink{, ADS}{http://ui.adsabs.harvard.edu/doi/#1}}}
+%\newcommand{\nadsT}[1]{\html{\htmladdnormallink{, ADS}{http://adsabs.harvard.edu/abs/#1}}}
+%\newcommand{\nadsE}[1]{\html{\htmladdnormallink{, ADS}{http://adsabs.harvard.edu/abs/#1}}}
+%\newcommand{\nadsS}[1]{\html{\htmladdnormallink{(ADS)}{http://adsabs.harvard.edu/abs/#1}}}
+%
+%\newcommand{\ads}[1]{\html{\htmladdnormallink{ADS}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsB}[1]{\html{\htmladdnormallink{(ADS}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsE}[1]{\html{\htmladdnormallink{, ADS}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsC}[1]{\html{\htmladdnormallink{ADS, }{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsS}[1]{\html{\htmladdnormallink{(ADS)}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%\newcommand{\adsT}[1]{\html{\htmladdnormallink{, ADS}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#1}}}
+%
+\newcommand{\ads}[1]{\html{\htmladdnormallink{ADS}{http://ui.adsabs.harvard.edu/abs/#1}}}
+\newcommand{\adsB}[1]{\html{\htmladdnormallink{(ADS}{http://ui.adsabs.harvard.edu/abs/#1}}}
+\newcommand{\adsE}[1]{\html{\htmladdnormallink{, ADS}{http://ui.adsabs.harvard.edu/abs/#1}}}
+\newcommand{\adsC}[1]{\html{\htmladdnormallink{ADS, }{http://ui.adsabs.harvard.edu/abs/#1}}}
+\newcommand{\adsS}[1]{\html{\htmladdnormallink{(ADS)}{http://ui.adsabs.harvard.edu/abs/#1}}}
+\newcommand{\adsT}[1]{\html{\htmladdnormallink{, ADS}{http://ui.adsabs.harvard.edu/abs/#1}}}
+%
+\newcommand{\ownB}[1]{\html{\htmladdnormallink{(PDF}{../Own_Papers/#1.pdf}}}
+\newcommand{\ownS}[1]{\html{\htmladdnormallink{(PDF)}{../Own_Papers/#1.pdf}}}
+\newcommand{\ownT}[1]{\html{\htmladdnormallink{, PDF}{../Own_Papers/#1.pdf}}}
+\newcommand{\ownE}[1]{\html{\htmladdnormallink{, PDF)}{../Own_Papers/#1.pdf}}}
+\newcommand{\supE}[1]{\html{\htmladdnormallink{, Supp)}{../Own_Papers/#1.pdf}}}
+\newcommand{\adE}[1]{\html{\htmladdnormallink{, ad)}{../Own_Papers/#1.pdf}}}
+%\newcommand{\own}[1]{\html{\htmladdnormallink{PDF}{http://www.nordita.org/~brandenb/Own_Papers/#1.pdf}}}
+%\newcommand{\ownS}[1]{\html{\htmladdnormallink{(PDF)}{http://www.nordita.org/~brandenb/Own_Papers/#1.pdf}}}
+%\newcommand{\ownB}[1]{\html{\htmladdnormallink{(PDF}{http://www.nordita.org/~brandenb/Own_Papers/#1.pdf}}}
+%\newcommand{\ownE}[1]{\html{\htmladdnormallink{, PDF)}{../Own_Papers/#1.pdf}}}
+%\newcommand{\ownT}[1]{\html{\htmladdnormallink{, PDF}{http://www.nordita.org/~brandenb/Own_Papers/#1.pdf}}}
+\newcommand{\psT}[1]{\html{\htmladdnormallink{, PS}{http://www.nordita.org/~brandenb/papers/#1.ps.gz}}}
+\newcommand{\psB}[1]{\html{\htmladdnormallink{(PS}{http://www.nordita.org/~brandenb/papers/#1.ps.gz}}}
+\newcommand{\htmlB}[1]{\html{\htmladdnormallink{(HTML}{http://www.nordita.org/~brandenb/papers/#1.html}}}
+\newcommand{\htmlS}[1]{\html{\htmladdnormallink{(HTML}{http://www.nordita.org/~brandenb/papers/#1.html}}}
+\newcommand{\htmlT}[1]{\html{\htmladdnormallink{, HTML}{http://www.nordita.org/~brandenb/papers/#1.html}}}
+\newcommand{\htmlE}[1]{\html{\htmladdnormallink{, HTML}{http://www.nordita.org/~brandenb/papers/#1.html}}}
+\newcommand{\httpB}[1]{\html{\htmladdnormallink{(HTML}{#1}}}
+\newcommand{\httpS}[1]{\html{\htmladdnormallink{(HTML)}{#1}}}
+\newcommand{\httpT}[1]{\html{\htmladdnormallink{, HTML}{#1}}}
+\newcommand{\httpE}[1]{\html{\htmladdnormallink{, HTML)}{#1}}}
+
+%\newcommand{\astrophADS}[2]{(\htmladdnormallink{astro-ph/#1}{http://xxx.lanl.gov/abs/astro-ph/#1}, 
+%{\begin{htmlonly}\htmladdnormallink{ADS}{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=#2}\end{htmlonly}}}
+\newcommand{\yab}[5]{:~#1, ``#5,'' {\em Astrobiol.\ }{\bf #2}, #3--#4}
+\newcommand{\yaraa}[5]{:~#1, ``#5,'' {\em Annu.\ Rev.\ Astron.\ Astrophys.\ }{\bf #2}, #3--#4}
+\newcommand{\yarfm}[5]{:~#1, ``#5,'' {\em Annu.\ Rev.\ Fluid Mech.\ }{\bf #2}, #3--#4}
+\newcommand{\yica}[5]{:~#1, ``#5,'' {\em Icarus }{\bf #2}, #3--#4}
+\newcommand{\ysph}[5]{:~#1, ``#5,'' {\em Solar Phys.\ }{\bf #2}, #3--#4}
+\newcommand{\ysphs}[5]{:~#1, ``#5'' {\em Solar Phys.\ }{\bf #2}, #3--#4}
+\newcommand{\ymn}[5]{:~#1, ``#5,'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.\ }{\bf #2}, #3--#4}
+\newcommand{\yan}[5]{:~#1, ``#5,'' {\em Astron.\ Nachr.\ }{\bf #2}, #3--#4}
+\newcommand{\yanN}[4]{:~#1, ``#4,'' {\em Astron.\ Nachr.\ }{\bf #2}, #3}
+\newcommand{\yana}[5]{:~#1, ``#5,'' {\em Astron.\ Astrophys.\ }{\bf #2}, #3--#4}
+\newcommand{\yanaS}[5]{:~#1, ``#5'' {\em Astron.\ Astrophys.\ }{\bf #2}, #3--#4}
+\newcommand{\yanaN}[4]{:~#1, ``#4,'' {\em Astron.\ Astrophys.\ }{\bf #2}, #3}
+\newcommand{\yanas}[5]{:~#1, ``#5'' {\em Astron.\ Astrophys.\ }{\bf #2}, #3--#4}
+\newcommand{\yass}[5]{:~#1, ``#5,'' {\em Astrophys.\ Spa.\ Sci.\ }{\bf #2}, #3--#4}
+\newcommand{\yaas}[4]{:~#1, ``#4,'' {\em Bull.\ Am.\ Astron.\ Soc.\ }{\bf #2}, #3}
+\newcommand{\yaps}[4]{:~#1, ``#4,'' {\em Bull.\ Am.\ Phys.\ Soc.\ }{\bf #2}, #3}
+\newcommand{\ynat}[5]{:~#1, ``#5,'' {\em Nature }{\bf #2}, #3--#4}
+\newcommand{\ysci}[5]{:~#1, ``#5,'' {\em Science }{\bf #2}, #3--#4}
+\newcommand{\yjcap}[4]{:~#1, ``#4,'' {\em J. Cosmol. Astropart. Phys. }{\bf #2}, #3}
+\newcommand{\yapj}[5]{:~#1, ``#5,'' {\em Astrophys.\ J.\ }{\bf #2}, #3--#4}
+\newcommand{\yps}[5]{:~#1, ``#5,'' {\em Phys.\ Scr.\ }{\bf #2}, #3--#4}
+\newcommand{\ypsN}[4]{:~#1, ``#4,'' {\em Phys.\ Scr.\ }{\bf #2}, #3}
+\newcommand{\yapjSN}[4]{:~#1, ``#4'' {\em Astrophys.\ J.\ }{\bf #2}, #3}
+\newcommand{\yapjN}[4]{:~#1, ``#4,'' {\em Astrophys.\ J.\ }{\bf #2}, #3}
+\newcommand{\yjppN}[4]{:~#1, ``#4,'' {\em J.\ Plasma Phys.\ }{\bf #2}, #3}
+\newcommand{\yapjlN}[4]{:~#1, ``#4,'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, #3}
+\newcommand{\yapjs}[5]{:~#1, ``#5,'' {\em Astrophys.\ J. Suppl.\ }{\bf #2}, #3--#4}
+\newcommand{\yapjl}[5]{:~#1, ``#5,'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, #3--#4}
+\newcommand{\yapjlS}[5]{:~#1, ``#5'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, #3--#4}
+\newcommand{\yapjlNS}[4]{:~#1, ``#4'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, #3}
+\newcommand{\yjfm}[5]{:~#1, ``#5,'' {\em J.\ Fluid Mech.\ }{\bf #2}, #3--#4}
+\newcommand{\yjfmN}[4]{:~#1, ``#4,'' {\em J.\ Fluid Mech.\ }{\bf #2}, #3}
+\newcommand{\ypepi}[5]{:~#1, ``#5,'' {\em Phys. Earth Planet. Int.}{\bf #2}, #3--#4}
+\newcommand{\ypnas}[5]{:~#1, ``#5,'' {\em Proc.\ Natl.\ Acad.\ Sci.}{\bf #2}, #3--#4}
+\newcommand{\ygrlN}[4]{:~#1, ``#4,'' {\em Geophys.\ Res.\ Lett.\ }{\bf #2}, #3}
+\newcommand{\ygrl}[5]{:~#1, ``#5,'' {\em Geophys.\ Res.\ Lett.\ }{\bf #2}, #3--#4}
+\newcommand{\ygafd}[5]{:~#1, ``#5,'' {\em Geophys.\ Astrophys.\ Fluid Dyn.\ }{\bf #2}, #3--#4}
+\newcommand{\ygafdS}[5]{:~#1, ``#5'' {\em Geophys.\ Astrophys.\ Fluid Dyn.\ }{\bf #2}, #3--#4}
+\newcommand{\yoleb}[5]{:~#1, ``#5,'' {\em Orig.\ Life Evol.\ Biosph.\ }{\bf #2}, #3--#4}
+\newcommand{\sproc}[5]{:~#1, ``#2,'' in {\em #3}, ed.\ #4, #5, submitted}
+\newcommand{\sprocS}[5]{:~#1, ``#2'' in {\em #3}, ed.\ #4, #5, submitted}
+\newcommand{\eproc}[6]{:~#1, ``#2,'' in {\em #3}, \url{#4}, #5}
+\newcommand{\pproc}[5]{:~#1, ``#2,'' in {\em #3}, ed.\ #4, #5, in press}
+\newcommand{\pprocS}[5]{:~#1, ``#2'' in {\em #3}, ed.\ #4, #5, in press}
+\newcommand{\ypr}[5]{:~#1, ``#5,'' {\em Phys.\ Rev.\ }{\bf #2}, #3--#4}
+\newcommand{\ypra}[5]{:~#1, ``#5,'' {\em Phys.\ Rev. A }\/ {\bf #2}, #3--#4}
+\newcommand{\yprb}[5]{:~#1, ``#5,'' {\em Phys.\ Rev. B }\/ {\bf #2}, #3--#4}
+\newcommand{\yprd}[5]{:~#1, ``#5,'' {\em Phys.\ Rev. D }\/ {\bf #2}, #3--#4}
+\newcommand{\ypre}[5]{:~#1, ``#5,'' {\em Phys.\ Rev. E }\/ {\bf #2}, #3--#4}
+\newcommand{\yprdN}[4]{:~#1, ``#4,'' {\em Phys.\ Rev. D }\/ {\bf #2}, #3}
+\newcommand{\yprdNS}[4]{:~#1, ``#4'' {\em Phys.\ Rev. D }\/ {\bf #2}, #3}
+\newcommand{\ypreN}[4]{:~#1, ``#4,'' {\em Phys.\ Rev. E }\/ {\bf #2}, #3}
+\newcommand{\ypreNS}[4]{:~#1, ``#4'' {\em Phys.\ Rev. E }\/ {\bf #2}, #3}
+\newcommand{\yprN}[5]{:~#1, ``#5,'' {\em Phys.\ Rev.\ }{\bf #2}, #3, #4}
+\newcommand{\yprlN}[4]{:~#1, ``#4,'' {\em Phys.\ Rev.\ Lett.\ }{\bf #2}, #3}
+\newcommand{\yprr}[4]{:~#1, ``#4,'' {\em Phys.\ Rev. Res. }\/ {\bf #2}, #3}
+\newcommand{\yproc}[7]{:~#1, ``#4,'' in {\em #5}, ed.\ #6, #7, pp.~#2--#3}
+\newcommand{\yprocS}[7]{:~#1, ``#4'' in {\em #5}, ed.\ #6, #7, pp.~#2--#3}
+\newcommand{\yprocN}[6]{:~#1, ``#3,'' in {\em #4}, ed.\ #5, #6, #2}
+\newcommand{\yjour}[6]{:~#1, ``#6,'' {\em #2} {\bf #3}, #4--#5}
+\newcommand{\yjourN}[5]{:~#1, ``#5,'' {\em #2} {\bf #3}, #4}
+\newcommand{\yjourS}[6]{:~#1, ``#6'' {\em #2} {\bf #3}, #4--#5}
+\newcommand{\tjour}[3]{:~#1, ``#3,'' {\em #2}, to be submitted}
+\newcommand{\sjour}[3]{:~#1, ``#3,'' {\em #2}, submitted}
+\newcommand{\sjourS}[3]{:~#1, ``#3'' {\em #2}, submitted}
+\newcommand{\ppjour}[4]{:~#1, ``#4'' {\em #2} {\bf #3}}
+\newcommand{\pjour}[3]{:~#1, ``#3,'' {\em #2}, in press}
+\newcommand{\djour}[4]{:~#1, ``#3,'' {\em #2}, DOI: #4}
+\newcommand{\dnjour}[5]{:~#1, ``#4,'' {\em #2}, {\bf #3}. DOI: #5}
+\newcommand{\ypreprint}[2]{:~#1, #2}
+\newcommand{\yprep}[2]{:~#1, ``#2''}
+\newcommand{\ybook}[3]{:~#1,  {\em #2}. #3}
+\newcommand{\yija}[5]{:~#1, ``#5,'' {\em Int.\ J.\ Astrobiol.\ }{\bf #2}, #3--#4}
+\newcommand{\yijaS}[5]{:~#1, ``#5'' {\em Int.\ J.\ Astrobiol.\ }{\bf #2}, #3--#4}
+\newcommand{\ypf}[5]{:~#1, ``#5,'' {\em Phys.\ Fluids}\/ {\bf #2}, #3--#4}
+\newcommand{\ypfN}[4]{:~#1, ``#4,'' {\em Phys.\ Fluids}\/ {\bf #2}, #3}
+\newcommand{\ypp}[5]{:~#1, ``#5,'' {\em Phys.\ Plasmas}\/ {\bf #2}, #3--#4}
+\newcommand{\yppN}[4]{:~#1, ``#4,'' {\em Phys.\ Plasmas}\/ {\bf #2}, #3}
+\newcommand{\yepl}[5]{:~#1, ``#5,'' {\em Europhys.\ Lett.\ }{\bf #2}, #3--#4}
+\newcommand{\yprl}[5]{:~#1, ``#5,'' {\em Phys.\ Rev.\ Lett.\ }{\bf #2}, #3--#4}
+\newcommand{\ybif}[5]{:~#1, ``#5,'' {\em Int.\ J.\ Bifurc.\ Chaos}\/ {\bf #2}, #3--#4}
+\newcommand{\ycsf}[5]{:~#1, ``#5,'' {\em Chaos, Solitons \& Fractals }{\bf #2}, #3--#4}
+\newcommand{\ycsfS}[5]{:~#1, ``#5'' {\em Chaos, Solitons \& Fractals }{\bf #2}, #3--#4}
+%
+\newcommand{\sph}{{\em Solar~Phys.~}}
+\newcommand{\ana}{{\em Astron.~Astrophys.~}}
+\newcommand{\gafd}{{\em Geophys.~Astrophys.~Fluid Dyn.~}}
+%
+\newcommand{\sica}[2]{:~#1, ``#2,'' {\em Icarus}, submitted}
+\newcommand{\pica}[2]{:~#1, ``#2,'' {\em Icarus}, in press}
+\newcommand{\sepl}[2]{:~#1, ``#2,'' {\em Europhys.\ Lett.}, submitted}
+\newcommand{\pepl}[2]{:~#1, ``#2,'' {\em Europhys.\ Lett.}, in press}
+\newcommand{\tjcap}[2]{:~#1, ``#2,'' {\em J. Cosmol. Astropart. Phys.}, to be submitted}
+\newcommand{\sjcap}[2]{:~#1, ``#2,'' {\em J. Cosmol. Astropart. Phys.}, submitted}
+\newcommand{\pjcap}[2]{:~#1, ``#2,'' {\em J. Cosmol. Astropart. Phys.}, in press}
+\newcommand{\tbs}[2]{:~#1, ``#2,'' to be submitted}
+\newcommand{\tprl}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Lett.}, to be submitted}
+\newcommand{\sprl}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Lett.}, submitted}
+\newcommand{\sprf}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Fluids}, submitted}
+\newcommand{\pprf}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Fluids}, in press}
+\newcommand{\yprf}[4]{:~#1, ``#4,'' {\em Phys.\ Rev.\ Fluids}, {\bf #2}, #3}
+\newcommand{\sprb}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ B}, submitted}
+\newcommand{\sprd}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ D}, submitted}
+\newcommand{\sprdS}[2]{:~#1, ``#2'' {\em Phys.\ Rev.\ D}, submitted}
+\newcommand{\sprr}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Res.}, submitted}
+\newcommand{\tprd}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ D}, to be submitted}
+\newcommand{\tprdS}[2]{:~#1, ``#2'' {\em Phys.\ Rev.\ D}, to be submitted}
+\newcommand{\spre}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ E}, submitted}
+\newcommand{\spreS}[2]{:~#1, ``#2'' {\em Phys.\ Rev.\ E}, submitted}
+\newcommand{\pprl}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Lett.}, in press}
+\newcommand{\pprd}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ D}, in press}
+\newcommand{\pprdS}[2]{:~#1, ``#2'' {\em Phys.\ Rev.\ D}, in press}
+\newcommand{\ppre}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ E}, in press}
+\newcommand{\pprr}[2]{:~#1, ``#2,'' {\em Phys.\ Rev.\ Res.}, in press}
+\newcommand{\ppreS}[2]{:~#1, ``#2'' {\em Phys.\ Rev.\ E}, in press}
+\newcommand{\tpr}[3]{:~#1, ``#3,'' {\em Phys.\ Rev.\ }{\bf #2}, to be submitted}
+\newcommand{\spr}[3]{:~#1, ``#3,'' {\em Phys.\ Rev.\ }{\bf #2}, submitted}
+\newcommand{\ppr}[3]{:~#1, ``#3,'' {\em Phys.\ Rev.\ }{\bf #2}, in press}
+\newcommand{\pppp}[3]{:~#1, ``#2,'' {\em Phys.\ Plasmas}, in press, scheduled for the #3 issue}
+\newcommand{\ppp}[2]{:~#1, ``#2,'' {\em Phys.\ Plasmas}, in press}
+\newcommand{\spp}[2]{:~#1, ``#2,'' {\em Phys.\ Plasmas}, submitted}
+\newcommand{\tpp}[2]{:~#1, ``#2,'' {\em Phys.\ Plasmas}, to be submitted}
+\newcommand{\tppS}[2]{:~#1, ``#2'' {\em Phys.\ Plasmas}, to be submitted}
+\newcommand{\tbsan}[2]{:~#1, ``#2,'' {\em Astron.\ Nachr.}, to be submitted}
+\newcommand{\san}[2]{:~#1, ``#2,'' {\em Astron.\ Nachr.}, submitted}
+\newcommand{\pan}[2]{:~#1, ``#2,'' {\em Astron.\ Nachr.}, in press}
+\newcommand{\dan}[3]{:~#1, ``#2,'' {\em Astron.\ Nachr.}, DOI: #3}
+\newcommand{\sab}[2]{:~#1, ``#2,'' {\em Astrobiol.}, submitted}
+\newcommand{\pab}[2]{:~#1, ``#2,'' {\em Astrobiol.}, in press}
+\newcommand{\soleb}[2]{:~#1, ``#2,'' {\em Orig.\ Life Evol.\ Biosph.}, submitted}
+\newcommand{\poleb}[2]{:~#1, ``#2,'' {\em Orig.\ Life Evol.\ Biosph.}, in press}
+\newcommand{\doleb}[3]{:~#1, ``#2,'' {\em Orig.\ Life Evol.\ Biosph.}, DOI: #3}
+\newcommand{\sija}[2]{:~#1, ``#2,'' {\em Int.\ J.\ Astrobiol.}, submitted}
+\newcommand{\sana}[2]{:~#1, ``#2,'' {\em Astron.\ Astrophys.}, submitted}
+\newcommand{\tana}[2]{:~#1, ``#2,'' {\em Astron.\ Astrophys.}, to be submitted}
+\newcommand{\sanas}[2]{:~#1, ``#2'' {\em Astron.\ Astrophys.}, submitted}
+\newcommand{\pana}[2]{:~#1, ``#2,'' {\em Astron.\ Astrophys.}, in press}
+\newcommand{\dana}[3]{:~#1, ``#2,'' {\em Astron.\ Astrophys.}, DOI: #3}
+\newcommand{\panas}[2]{:~#1, ``#2'' {\em Astron.\ Astrophys.}, in press}
+\newcommand{\sgafd}[2]{:~#1, ``#2,'' {\em Geophys.\ Astrophys.\ Fluid Dyn.}, submitted}
+\newcommand{\sgafdS}[2]{:~#1, ``#2'' {\em Geophys.\ Astrophys.\ Fluid Dyn.}, submitted}
+\newcommand{\pgafdS}[2]{:~#1, ``#2'' {\em Geophys.\ Astrophys.\ Fluid Dyn.}, in press}
+\newcommand{\pgafd}[2]{:~#1, ``#2,'' {\em Geophys.\ Astrophys.\ Fluid Dyn.}, in press}
+\newcommand{\dgafd}[3]{:~#1, ``#2,'' {\em Geophys.\ Astrophys.\ Fluid Dyn.}, DOI: #3}
+\newcommand{\ppgafd}[3]{:~#1, ``#3,'' {\em Geophys.\ Astrophys.\ Fluid Dyn.} {\bf #2}}
+\newcommand{\tapj}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.}, to be submitted}
+\newcommand{\papj}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.}, in press}
+\newcommand{\papjl}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.\ Lett.}, in press}
+\newcommand{\sapj}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.}, submitted}
+\newcommand{\sapjS}[2]{:~#1, ``#2'' {\em Astrophys.\ J.}, submitted}
+\newcommand{\papjS}[2]{:~#1, ``#2'' {\em Astrophys.\ J.}, in press}
+\newcommand{\tapjl}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.\ Lett.}, to be submitted}
+\newcommand{\sapjl}[2]{:~#1, ``#2,'' {\em Astrophys.\ J.\ Lett.}, submitted}
+\newcommand{\papjlS}[2]{:~#1, ``#2'' {\em Astrophys.\ J.\ Lett.}, in press}
+\newcommand{\sapjlS}[2]{:~#1, ``#2'' {\em Astrophys.\ J.\ Lett.}, submitted}
+%\newcommand{\papj}[3]{:~#1, ``#3,'' {\em Astrophys.\ J.\ }{\bf #2}}
+\newcommand{\ppapj}[4]{:~#1, ``#3,'' {\em Astrophys.\ J.\ }{\bf #2}, scheduled for the #4 issue}
+\newcommand{\ppapjS}[4]{:~#1, ``#3'' {\em Astrophys.\ J.\ }{\bf #2}, scheduled for the #4 issue}
+\newcommand{\ppapjl}[4]{:~#1, ``#3,'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, scheduled for the #4 issue}
+\newcommand{\ppapjlS}[4]{:~#1, ``#3'' {\em Astrophys.\ J.\ Lett.\ }{\bf #2}, scheduled for the #4 issue}
+\newcommand{\tjpp}[2]{:~#1, ``#2,'' {\em J.\ Plasma Phys.}, to be submitted}
+\newcommand{\sjpp}[2]{:~#1, ``#2,'' {\em J.\ Plasma Phys.}, submitted}
+\newcommand{\pjpp}[2]{:~#1, ``#2,'' {\em J.\ Plasma Phys.}, in press}
+\newcommand{\djpp}[3]{:~#1, ``#2,'' {\em J.\ Plasma Phys.}, DOI: #3}
+\newcommand{\unpub}[2]{:~#1, ``#2,'' unpublished}
+\newcommand{\spf}[2]{:~#1, ``#2,'' {\em Phys.\ Fluids}, submitted}
+\newcommand{\ppf}[2]{:~#1, ``#2,'' {\em Phys.\ Fluids}, in press}
+\newcommand{\ssph}[2]{:~#1, ``#2,'' {\em Solar Phys.}, submitted}
+\newcommand{\psph}[2]{:~#1, ``#2,'' {\em Solar Phys.}, in press}
+\newcommand{\dsph}[3]{:~#1, ``#2,'' {\em Solar Phys.}, DOI: #3}
+\newcommand{\sbif}[2]{:~#1, ``#2,'' {\em Int.\ J.\ Bifurc.\ Chaos}, submitted}
+\newcommand{\pbif}[2]{:~#1, ``#2,'' {\em Int.\ J.\ Bifurc.\ Chaos}, in press}
+\newcommand{\scsfS}[2]{:~#1, ``#2'' {\em Chaos, Solitons \& Fractals}
+(submitted}
+\newcommand{\scsf}[2]{:~#1, ``#2,'' {\em Chaos, Solitons \& Fractals}
+(submitted}
+\newcommand{\pcsfS}[3]{:~#1, ``#2'' {\em Chaos, Solitons \& Fractals}
+(#3}
+\newcommand{\pcsf}[3]{:~#1, ``#2,'' {\em Chaos, Solitons \& Fractals}
+(#3}
+\newcommand{\pjfm}[2]{:~#1, ``#2,'' {\em J.\ Fluid Mech.}, in press}
+\newcommand{\sjfm}[2]{:~#1, ``#2,'' {\em J.\ Fluid Mech.}, submitted}
+\newcommand{\tjfm}[2]{:~#1, ``#2,'' {\em J.\ Fluid Mech.}, to be submitted}
+\newcommand{\dmn}[3]{:~#1, ``#2,'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.}, DOI: #3}
+\newcommand{\pmn}[2]{:~#1, ``#2,'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.}, in press}
+\newcommand{\smn}[2]{:~#1, ``#2,'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.}, submitted}
+\newcommand{\smnS}[2]{:~#1, ``#2'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.}, submitted}
+\newcommand{\tmn}[2]{:~#1, ``#2,'' {\em Mon.\ Not.\ Roy.\ Astron.\ Soc.}, to be submitted}

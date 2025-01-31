@@ -1,8 +1,6 @@
 default:
-	latex notes
-	latex notes
-	dvipdf notes
+	pdflatex cv
 
 ci:
-	git add index.html images pub Own_Papers Makefile
+	git add index.html images pub Own_Papers Makefile ORCID.html tex
 	gitci
