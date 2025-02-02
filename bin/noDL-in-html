@@ -1,0 +1,11 @@
+#!/bin/csh
+
+cat pub/$1 >.tmp
+
+sed -e "s/<DD>/<DD style='position\: relative\; top\: \-1\.2em'>/g" .tmp >! .scr
+sed -e "s/<P>//g" .scr >! .tmp
+sed -e "s/ COMPACT//g" .tmp >! .scr
+
+cat .scr >! pub/$1
+
+rm -f .tmp .scr
