@@ -1,0 +1,22 @@
+<h4>Hi,</h4>
+On June 1, 2017, the IP number was changed from 130.242.129.93 to 130.242.129.140.
+<pre>
+  Historically Nordita is sharing the network 130.242.129/24 with AlbaNova.
+  Now AlbaNova forces us to split the network i.e. get "our own one".
+  The split unavoidably means renumbering of the IP numbers.
+</pre>
+The change should be applied to "~/.cvspass" and all
+"CVS/Repository" files. The latter can be done with
+<pre>
+  <a href=https://www.nordita.org/~brandenb/AstroDyn/progress/computing/change_CVS>change_CVS</a> :pserver:brandenb@130.242.129.140:/var/cvs/brandenb
+</pre>
+which descends into all deeper directories.
+This script was written by Boris Dintrans in 2010 and has been in use
+since then, so you may have it already since then; see
+<pre>
+  <a href=https://www.nordita.org/~brandenb/AstroDyn/progress/computing/#change_CVS>https://www.nordita.org/~brandenb/AstroDyn/progress/computing/#change_CVS</a>
+</pre>
+(If you use my ~/sys/.alias, there is an alias "chan" that does it.)
+Don't forget to edit ~/.cvspass to avoid being asked
+about your password, which one tends to forget.
+<h4>Axel</h4>

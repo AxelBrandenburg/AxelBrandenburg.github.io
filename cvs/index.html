@@ -1,0 +1,90 @@
+<h4>Hi,</h4>
+<pre>
+Put:
+
+  export CVSROOT=:pserver:$USER@130.242.129.140:/var/cvs/brandenb
+
+and say:
+
+  cvs login
+
+This should work correctly if $USER corresponds to the correct UserId
+that I entered for you. Then you give the password.
+
+Next, you say
+
+  cvs co <path>
+
+which is the path I gave you. You can move this directory
+or the entire path anywhere you like. All that cvs cares about
+is the CVS directory inside the directory.
+
+Other useful commands:
+
+  cvs log paper.tex|m
+
+to see version numbers, and then
+
+  cvs diff -r 1.16 -r 1.17 paper.tex | m
+
+to see the differences between particular ones.
+
+It helps marking changes with latex comments into the tex file;
+and then if one of us deletes those again if OK, or added
+additional comments. Mine are marked with %AB:
+</pre>
+<h4>Other related links</h4>
+<li><a href=https://www.nordita.org/~brandenb/AstroDyn/progress/computing/#CVSco>CVSco</a>
+<li><a href=https://www.nordita.org/~brandenb/stockholm/comp-tips.html#CVSnordita>CVSnordita</a>
+<li><a href=https://www.nordita.org/~brandenb/stockholm/comp-tips.html#CVSwindows>CVSwindows</a>
+<li><a href=https://www.nordita.org/~brandenb/cvs/change.html>change.html</a>
+
+<h4>New CVS</h4>
+
+The new server uses SSH for authentication and to check out, say,
+tex/inputs, you would do
+<pre>
+  cvs -d :ext:cvs@norlx65.nordita.org:/srv/cvs/brandenb checkout tex/inputs/
+</pre>
+This will only work after you set up an SSH key, though, see the following
+instructions.
+
+We recommend creating a separate SSH key for this (though in theory you
+could use your standard key).
+<pre>
+  0. In your .cshrc (and correspondingly for bash), put
+         setenv CVS_RSH ssh
+  1. Generate an SSH key
+         ssh-keygen -f ~/.ssh/cvs-nordita-key
+  2. Send the file ~/.ssh/cvs-nordita-key.pub to Axel via email.
+  3. Axel will add an entry
+         no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty,command="/usr/bin/cvs server" ssh-rsa AAAA[...] user@host
+     to the file ~cvs/.ssh/authorized_keys
+     Once this is done, you can proceed:
+  4. Add the key to your ssh agent:
+         ssh-add ~/.ssh/cvs-nordita-key
+     You'll need to repeat this if you login afresh (but you know that
+     from the other SSH keys you are using).
+  5. Use CVS. Note that the CVS root
+         :pserver:dobler@norserv.nordita.dk:/home/brandenb/CVS
+     is now replaced by
+         :ext:cvs@norlx65.nordita.org:/srv/cvs/brandenb
+     (a) To check out from scratch, use something like
+           cvs -d :ext:cvs@norlx65.nordita.org:/srv/cvs/brandenb checkout idl/pro
+     (b) If you have set the CVSROOT environment variable, adapt it to
+         :ext:cvs@[...] (see above)
+     (c) To continue existing checkouts from the old server, you'll need
+         to recursively adapt the CVS/Root files.
+</pre>
+
+Once you are in, check out Wolfgang's notes from etc/cvs.
+
+<br>
+<br>
+<hr>
+<small>
+$Date: 2019/01/20 09:52:11 $, $Author: brandenb $, $Revision: 1.6 $
+</small>
+
+</html>
+
