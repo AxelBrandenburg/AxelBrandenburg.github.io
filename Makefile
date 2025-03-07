@@ -11,6 +11,12 @@ default:
 cv:
 	pdflatex cv
 
+diff:
+	diff tex/publications.tex ~/tex/etc/curri.tex
+
+cp:
+	cp tex/publications.tex ~/tex/etc/curri.tex
+
 ci:
 	git add index.html images pub Own_Papers Makefile ORCID.html tex cv.html highlights README.md cv.pdf cv.tex bin
 	gitci
