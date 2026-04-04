@@ -19,5 +19,7 @@ cp:
 
 ci:
 	git add index.html images pub Own_Papers Makefile ORCID.html tex cv.html highlights README.md cv.pdf cv.tex bin cvs
-	gitci
+	git commit -m "current version; message generated automatically on: `uname -ns` ($USER)"
+	git pull --rebase
+	git push
 
