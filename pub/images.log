@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  13 JUL 2026 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  16 JUL 2026 06:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,30 +262,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1043.
 
-:tex2html_wrap_inline15197:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline15211:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline15197:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline15211:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 Preview: Tightpage -65781 -65781 65781 65781
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-:tex2html_wrap_inline15201:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline15215:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline15201:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline15215:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [2]
 
-:tex2html_wrap_inline15203:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline15217:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline15203:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline15217:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 [3]
 
-:tex2html_wrap_inline15205:lthtmlCropMarkHeight:=12.94444pt
+:tex2html_wrap_inline15219:lthtmlCropMarkHeight:=12.94444pt
 
-:tex2html_wrap_inline15205:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline15219:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 [4]
 
-:tex2html_wrap_inline15209:lthtmlCropMarkHeight:=12.83331pt
+:tex2html_wrap_inline15223:lthtmlCropMarkHeight:=12.83331pt
 
-:tex2html_wrap_inline15209:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline15223:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [5] (./images.aux)
 Package rerunfilecheck Info: File `images.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
