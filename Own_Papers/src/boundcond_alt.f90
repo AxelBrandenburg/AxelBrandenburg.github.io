@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/boundcond_alt.f90

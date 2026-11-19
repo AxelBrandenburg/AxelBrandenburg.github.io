@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/noyinyang_mpi.f90

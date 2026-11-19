@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/diagnostics_outlog.f90

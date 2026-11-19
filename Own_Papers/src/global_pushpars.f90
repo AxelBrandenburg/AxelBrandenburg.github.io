@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/global_pushpars.f90

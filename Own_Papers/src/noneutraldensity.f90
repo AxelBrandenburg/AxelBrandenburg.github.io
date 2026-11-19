@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/noneutraldensity.f90

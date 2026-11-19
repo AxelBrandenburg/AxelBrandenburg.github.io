@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/src/power_spectrum.h

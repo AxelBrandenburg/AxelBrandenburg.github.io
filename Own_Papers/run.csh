@@ -1,1 +1,0 @@
-/home/brandenb/pencil-code/bin/run.csh
