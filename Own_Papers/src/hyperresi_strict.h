@@ -1,0 +1,1 @@
+/home/brandenb/pencil-code/src/hyperresi_strict.h

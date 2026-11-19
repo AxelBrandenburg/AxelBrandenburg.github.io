@@ -1,0 +1,1 @@
+/home/brandenb/pencil-code/bin/getconf.csh
